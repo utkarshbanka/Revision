@@ -1,0 +1,127 @@
+                Java Interview prep Day 1;
+              RJ101 Assignment:Day 1;
+
+ 1. What is JVM? Why is Java called the Platform Independent Programming Language;
+
+Answers: JVM Stand for Java virtual Machine its helps us to execute and run the java program and helps us Communicate with the Machine or computer When we complie the java code then first Jvm check the code is correct or not if there is any Error then jvm throw the error after all the check java file change to .class file in .class file that is only understand by the jvm;
+=========================
+Java is called Platform Independent Programming language becouse java follow the wora (write once and run  anywhere ) when jvm change the java file in to class file that is understand by the jvm only if Then if Mac user wants to run the java program than Mac User have to download the jre Java run time Environment and  then they are able to run any java Software in to his computer;
+
+
+
+2:  What is the Difference between JDK and JRE?
+Answer: JDk Stands for Java Devlepoment kit it is mostly used by the java develper its is the bundle inside we have java compiler and other tool that is used by the Java Develper 
+JRe : Jre stands for Java run time environment if you are not develper only you have to run the Java software then this time only you have the jre is used for run the java software 
+Users must download the Jre for there suitable Os and the Users are able to run the java program or software;
+==================================
+ 3. What does the “static” keyword mean? Can you override private or static method in java? Explain why.
+
+Answer: Static Keyword is used for load the method or instance in to heap memory with static keyword we does not need to create the Object to access the method and varible we access this method with the help of  there class or without class : 
+No We cannot Overirde private or static method in java becouse when we define mehtod as static that are load inside the Heap memory  and  Simlarly You are not access the private method inside the child class :
+
+ 4:Can you access non static variable in static context? Why
+ Answer:No We Can not access non static variable in staitc context becosue there is no class instance inside the static context;
+
+5. What are the Data Types supported by Java? What is Autoboxing and Unboxing?
+Answer: There are Two types of Data types Suppoerted by  java
+ Primitive data types and Userdefined data types:
+ in Primtive data types  We hava  int,char,long,short,boolean,double,byte,float
+in Userdefiend we have Class , Interface,Array,String;
+
+Autoboxing: Autoboxing is used for the Changing of Primitive data types in to there coresponding Wrapper class objecet:
+Unboixng: Unboixing is used for the Changing ther Wrapper class obejct insid the primative value:
+
+6. What is Method Overriding and Overloading in Java?
+Answer: Metod Overriding is a Runtime Polymorphism :
+ When we Writing the method in the super class and there sub class access that method in such a way wher method name and paramerter  must be same is Know as Overriding:
+
+Overloading: Overloadin is Compile time polymorphism Overloaoding stand for Method having same name but difrrent paratmer is know as Overloading its occur within the class:
+
+7. What is a Constructor, Constructor Overloading in Java and Copy-Constructor:
+Answer: A Constructor in java is a special method that is use d to initialize obects. The Constructor is called when the and object is created of class;
+
+Constructor Overloading:
+Constructor Overloading in java when we do create a Constructor in java java compiler give the non parmeterized consturctor to the java class  we override this constructor with different paratmer  and or we can say that concept of Constructor Overloading is used for useing more than one consturctor inside the java class with differnt parameter to peroform a different task;
+
+Constructor Copy:
+A Constructor copy in java is create an object using another object of the same java class that helpsfull when we want to copy a complex object that has several fields or wehn we want to make a deep copy of an existing objec;
+
+8. What’s your experience with Java Development Kit?
+Answer: Jdk is used for the Develpoment of the program mostly its is used by the prgramer and student that are studing programing and learing programing  inside jdk we hava all the tool that need for the develper:
+
+ 9. Have you used Java Runtime Environment?
+ Answer: Without java runtme Envirioment we can't run our java program if becouse jre helps us to talk with computer with our software becouse when we compile the code than java file change it class file  that is only understand by the jre and jre convert that code in to machine language or computer understand format ; thats why we cant use java software without jre;
+
+10. What’s your familiarity with Java Virtual Machine?
+Answer: Jvm is used as a specifiction that provide runtime envrionment i which java bytcode can be executed
+
+11. Can you explain what platform independence is?
+Answer: When we compile Our code then java file convert in to the class file that is only understand by the jvm and jre 
+jre is implemtion of jvm  so when we want to run the our java program then we compile the java program that program is converted in to the clas file and thats class file is uderstand by the jre and that jre convert that code in to machine understand format wihout jre we cannot run jvaa program anywhere:
+
+12. Can you explain what platform independence is?
+Answer: When we compile Our code then java file convert in to the class file that is only understand by the jvm and jre 
+jre is implemtion of jvm  so when we want to run the our java program then we compile the java program that program is converted in to the clas file and thats class file is uderstand by the jre and that jre convert that code in to machine understand format wihout jre we cannot run jvaa program anywhere:
+
+13. What are the core features of Java?
+Answers: Java have the feature of Incapsulation , abstraction,polmorpshim and , inhertiace;
+
+
+→ 14. What’s the definition of “class” in Java?
+Answer: Class is logical Entity where we can write our all the logic and method or we can say that class is bluerprint were we can write all thing what we want  clas does not take any memory : class take memory when object of this class created;
+
+15. How many types of memory areas are allocated by JVM?
+Answer: The jvm divide its memory in to two main categoreis heap memorry and non-heap memory;
+
+16. What is classloader?
+Answer: ClassLolader is subsystem of jvm which is used to load clas file whenever we run the java program , it is laoded first by the class loader :
+
+17. Is Empty .java file name a valid source file name?
+Answer: Yes Empty.java file is a perfectly valid source file:
+
+18. Is Empty .java file name a valid source file name?
+Answer: Yes Empty.java file is a perfectly valid source file:
+
+ 19. What is the default value of the local variables?
+Answer: The local varibles do not have any defautl value in java;
+
+→ 20. What are the various access specifiers in Java? When to use which one?
+Answer: 
+    Acesss Modifier;
+    1) Private, Default, Protected, Public:
+   
+
+      1                                                                                                                     (extends)
+                       Access Modifer       Within Class          Within Packges          Outside Packges  by class           Outside Packges 
+                   1  Private                      Yes                          No                                 No                                                     No
+                   2   Default                     yes                           yes                             no                                                      no;
+                   3   protected                Yes                            Yes                              Yes                                                    No;
+                   4 public                        Yes                           Yes                                Yes                                                    Yes:
+
+
+→ 21. What is the purpose of static methods and variables?
+Answer: If Want to Access static method so we don't need to create the object of the that class in which we write the static method becouse the methiod and varibale which have static keyword in it the are loaded in to the heap mermory and access without this object;
+
+→ 22. What will be the output of the following program?
+class Test
+{
+public static void main (String args[])
+{
+for(int i=0; 0; i++)
+{
+System.out.println(“Hello World” + i);
+}
+}
+}
+
+Answer: InCompitable type:
+
+→ 23. What is the purpose of a default constructor?
+Answer: Java Compiler give the default constructor to insilaze the defautl value ;
+ if we forgot to create the default constructor compiler auto generate the constructor;
+
+
+
+
+
+
